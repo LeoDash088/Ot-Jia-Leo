@@ -1,7 +1,7 @@
-const boton = document.getElementById('JS_boton');
-const audio = document.getElementById('miSonido');
+const boton = document.querySelector('.JS_boton');
+const audio = document.getElementById('MiSonido');
 
-JS_boton.addEventListener('click', () => {
+boton.addEventListener('click', () => {
     audio.play();
     console.log("Reproduciendo...")
 });
